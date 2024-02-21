@@ -1,0 +1,4 @@
+config:
+  deploy-obsidian:root-dir: /volume2/docker
+  deploy-obsidian:target-host: synology
+  deploy-obsidian:target-user: tobias

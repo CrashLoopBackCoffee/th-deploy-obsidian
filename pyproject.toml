@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "obsidian"
+version = "0.1.0"
+description = ""
+authors = ["Tobias Henkel <tobias.henkel@bmw.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pulumi = "3.106.0"
+pulumi-docker = "4.5.1"
+pulumi-command = "^0.9.2"
+pyyaml = "^6.0.1"
+
+[tool.poetry.dev-dependencies]
+black = "^24.2.0"
+isort = "^5.13.2"
+pylint = "^3.0.3"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
