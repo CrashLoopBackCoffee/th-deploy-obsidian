@@ -376,6 +376,22 @@ pulumi = ">=3.0.0,<4.0.0"
 semver = ">=2.8.1"
 
 [[package]]
+name = "pulumi-random"
+version = "4.15.1"
+description = "A Pulumi package to safely use randomness in Pulumi programs."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pulumi_random-4.15.1-py3-none-any.whl", hash = "sha256:acc7fda0238021b47fd9d967f6bd6acd7e588adb76821020f420a3eaf83696ca"},
+    {file = "pulumi_random-4.15.1.tar.gz", hash = "sha256:64841950b471934aac93a6524ea5cd3258f21776427a11d3f39f7b935f3c4bd9"},
+]
+
+[package.dependencies]
+parver = ">=0.2.1"
+pulumi = ">=3.0.0,<4.0.0"
+semver = ">=2.8.1"
+
+[[package]]
 name = "pycodestyle"
 version = "2.11.1"
 description = "Python style guide checker"
@@ -545,4 +561,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "aaefe3e47e8767555bc034eda063d70b5c964c9921d8aaeccea8d0483b204d21"
+content-hash = "4fd554cf76d87f500cc680a706025f611ef44e7a9bcb0af416426f414dbcdd1b"
