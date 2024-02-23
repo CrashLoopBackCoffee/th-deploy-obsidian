@@ -4,4 +4,4 @@ set -x
 set -eu
 
 black .
-flake8ruff check --fix
+ruff check --fix

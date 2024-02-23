@@ -1,3 +1,7 @@
+"""
+Create a CouchDB server
+"""
+
 import pulumi
 import pulumi_command
 import pulumi_docker as docker

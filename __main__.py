@@ -3,6 +3,7 @@
 import pulumi
 import pulumi_docker
 
+from obsidian.cloudflare import create_cloudflare_tunnel
 from obsidian.couchdb import create_couchdb
 
 config = pulumi.config.Config()
@@ -17,3 +18,4 @@ opts = pulumi.ResourceOptions(provider=provider)
 network = pulumi_docker.Network("obsidian", opts=opts)
 
 create_couchdb(network, opts)
+create_cloudflare_tunnel(network, opts)
