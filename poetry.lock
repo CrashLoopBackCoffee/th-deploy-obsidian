@@ -344,6 +344,22 @@ semver = ">=2.13,<3.0"
 six = ">=1.12,<2.0"
 
 [[package]]
+name = "pulumi-cloudflare"
+version = "5.21.0"
+description = "A Pulumi package for creating and managing Cloudflare cloud resources."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pulumi_cloudflare-5.21.0-py3-none-any.whl", hash = "sha256:20d1c58cc9b06c98711b87cb5a12e42296dff0ba325541dc6c18997dc5c849b4"},
+    {file = "pulumi_cloudflare-5.21.0.tar.gz", hash = "sha256:d5bc4627668ba58ace33e56079ac0f543cefe803ee1ab64cdebf34ce070b1a33"},
+]
+
+[package.dependencies]
+parver = ">=0.2.1"
+pulumi = ">=3.0.0,<4.0.0"
+semver = ">=2.8.1"
+
+[[package]]
 name = "pulumi-command"
 version = "0.9.2"
 description = "The Pulumi Command Provider enables you to execute commands and scripts either locally or remotely as part of the Pulumi resource model."
@@ -368,6 +384,22 @@ python-versions = ">=3.7"
 files = [
     {file = "pulumi_docker-4.5.1-py3-none-any.whl", hash = "sha256:8668c64d13254d8348029e42537ebbf3effbb811467ac6e7b1e8468361f08a9e"},
     {file = "pulumi_docker-4.5.1.tar.gz", hash = "sha256:5c3e85afc79fd015bb3d039ab637a1b55e3e3a7f6e73ed2e3ca5289988529218"},
+]
+
+[package.dependencies]
+parver = ">=0.2.1"
+pulumi = ">=3.0.0,<4.0.0"
+semver = ">=2.8.1"
+
+[[package]]
+name = "pulumi-random"
+version = "4.15.1"
+description = "A Pulumi package to safely use randomness in Pulumi programs."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pulumi_random-4.15.1-py3-none-any.whl", hash = "sha256:acc7fda0238021b47fd9d967f6bd6acd7e588adb76821020f420a3eaf83696ca"},
+    {file = "pulumi_random-4.15.1.tar.gz", hash = "sha256:64841950b471934aac93a6524ea5cd3258f21776427a11d3f39f7b935f3c4bd9"},
 ]
 
 [package.dependencies]
@@ -545,4 +577,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "aaefe3e47e8767555bc034eda063d70b5c964c9921d8aaeccea8d0483b204d21"
+content-hash = "3cca28ee911f5ee02ea7772f877363de9605c70ff56487fc6a5d425d0c34e426"
