@@ -4,5 +4,4 @@ set -x
 set -eu
 
 black .
-flake8
-pylint $(git ls-files '*.py')
+flake8ruff check --fix
