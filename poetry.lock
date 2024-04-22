@@ -393,13 +393,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-random"
-version = "4.15.1"
+version = "4.16.1"
 description = "A Pulumi package to safely use randomness in Pulumi programs."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "pulumi_random-4.15.1-py3-none-any.whl", hash = "sha256:acc7fda0238021b47fd9d967f6bd6acd7e588adb76821020f420a3eaf83696ca"},
-    {file = "pulumi_random-4.15.1.tar.gz", hash = "sha256:64841950b471934aac93a6524ea5cd3258f21776427a11d3f39f7b935f3c4bd9"},
+    {file = "pulumi_random-4.16.1-py3-none-any.whl", hash = "sha256:6d5a3a267de0ccb76e34ed362c261492c4c30c7e5ca676f8eb5cfcfc3b3a9d46"},
+    {file = "pulumi_random-4.16.1.tar.gz", hash = "sha256:f90fe3f58160802fa87137e7f0415b3204a294b75d8dfa779d64005e65c2fb83"},
 ]
 
 [package.dependencies]
@@ -578,4 +578,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "fedfe8047f21c9a6f10aa3c723ab738a2f9c3c33045506595eed136b8e338e4f"
+content-hash = "54a50cf79f5bb24227dbd427ab2328a1ad86cc536cc8aaee89ef6edc72d5c033"
