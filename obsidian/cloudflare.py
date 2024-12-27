@@ -89,6 +89,7 @@ def create_cloudflare_tunnel(network: docker.Network, opts: ResourceOptions):
 
     docker.Container(
         "obsidian-cloudflared",
+        name="cloudflared",
         image=image.image_id,
         command=[
             "tunnel",
