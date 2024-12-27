@@ -67,6 +67,7 @@ def create_couchdb(network: docker.Network, opts: ResourceOptions):
     docker.Container(
         "obsidian-couchdb",
         image=image.image_id,
+        name="obsidian-couchdb",
         envs=[
             f"COUCHDB_USER={couchdb_user}",
             Output.format("COUCHDB_PASSWORD={}", couchdb_password.result),
