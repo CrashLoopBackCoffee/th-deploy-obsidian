@@ -12,7 +12,7 @@ pulumi-docker = "4.5.8"
 pulumi-command = "1.0.1"
 pulumi-random = "4.16.8"
 pyyaml = "^6.0.1"
-pulumi-cloudflare = "5.45.0"
+pulumi-cloudflare = "5.46.0"
 ruff = "^0.8.0"
 
 [tool.poetry.dev-dependencies]
