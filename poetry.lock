@@ -327,6 +327,17 @@ files = [
 ]
 
 [[package]]
+name = "pip"
+version = "25.0.1"
+description = "The PyPA recommended tool for installing Python packages."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pip-25.0.1-py3-none-any.whl", hash = "sha256:c46efd13b6aa8279f33f2864459c8ce587ea6a1a59ee20de055868d8f7688f7f"},
+    {file = "pip-25.0.1.tar.gz", hash = "sha256:88f96547ea48b940a3a385494e181e29fb8637898f88d88737c5049780f196ea"},
+]
+
+[[package]]
 name = "platformdirs"
 version = "4.2.0"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -363,18 +374,19 @@ files = [
 
 [[package]]
 name = "pulumi"
-version = "3.144.1"
+version = "3.153.1"
 description = "Pulumi's Python SDK"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "pulumi-3.144.1-py3-none-any.whl", hash = "sha256:42a7c66d81000874e0ec44bfaacfe56a0dbf5cc0060014b10d064e0bc01580f7"},
+    {file = "pulumi-3.153.1-py3-none-any.whl", hash = "sha256:6a61581e519cd3323aecd46f24d02c5f6f7cb8bb721efa28c2137234efa8cb7c"},
 ]
 
 [package.dependencies]
 debugpy = ">=1.8.7,<1.9.0"
 dill = ">=0.3,<1.0"
 grpcio = ">=1.66.2,<1.67.0"
+pip = ">=24.3.1,<26"
 protobuf = ">=4.21,<5.0"
 pyyaml = ">=6.0,<7.0"
 semver = ">=2.13,<3.0"
@@ -382,13 +394,13 @@ six = ">=1.12,<2.0"
 
 [[package]]
 name = "pulumi-cloudflare"
-version = "5.46.0"
+version = "5.49.1"
 description = "A Pulumi package for creating and managing Cloudflare cloud resources."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "pulumi_cloudflare-5.46.0-py3-none-any.whl", hash = "sha256:fd97bbebc98c052605ef67819dda1822f2708765e8d41a87e171e87acae07346"},
-    {file = "pulumi_cloudflare-5.46.0.tar.gz", hash = "sha256:1bc3d485368586248e343794805b163e8e2bd7e17323d4bcc1f931e2c0285194"},
+    {file = "pulumi_cloudflare-5.49.1-py3-none-any.whl", hash = "sha256:c4271973a0b40dab94be738240638818f90255bc2d4812850220c0915e6084e0"},
+    {file = "pulumi_cloudflare-5.49.1.tar.gz", hash = "sha256:3631e13df964f35ada33efdc69bc4df64d8cdc8e09e237a6c9ed95ca0d9f18db"},
 ]
 
 [package.dependencies]
@@ -398,29 +410,29 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-command"
-version = "1.0.1"
+version = "1.0.2"
 description = "The Pulumi Command Provider enables you to execute commands and scripts either locally or remotely as part of the Pulumi resource model."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "pulumi_command-1.0.1-py3-none-any.whl", hash = "sha256:672cdea9c0ced0f79ed47e578267a2b2160dcf88626dde34ee96f5524a003574"},
-    {file = "pulumi_command-1.0.1.tar.gz", hash = "sha256:58e123707956aa7a9be2ce89c009642539cde5d9fa02e1e10501662600894843"},
+    {file = "pulumi_command-1.0.2-py3-none-any.whl", hash = "sha256:c75424fe6a80b495bec33c19c8ae97240f38003eb35f865a78ff59425bf9531c"},
+    {file = "pulumi_command-1.0.2.tar.gz", hash = "sha256:17b4010149a62ebce85a35f412fca6f7f508a24e54ee43d73c900e27869cae3e"},
 ]
 
 [package.dependencies]
 parver = ">=0.2.1"
-pulumi = ">=3.0.0,<4.0.0"
+pulumi = ">=3.142.0,<4.0.0"
 semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-docker"
-version = "4.5.8"
+version = "4.6.1"
 description = "A Pulumi package for interacting with Docker in Pulumi programs"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "pulumi_docker-4.5.8-py3-none-any.whl", hash = "sha256:bedc09f79b72514dbce7c721467880887b3f9d334ae8ea4a2399c6970c77e684"},
-    {file = "pulumi_docker-4.5.8.tar.gz", hash = "sha256:f4e5ad528f9d2bed52c88e3ba62e051ef0da55c26b41c41f651da975b0adaf86"},
+    {file = "pulumi_docker-4.6.1-py3-none-any.whl", hash = "sha256:74e2e7c406eccb728b449dfdc3f91f02ea08a12ec28e4f838e497b6e71eeb435"},
+    {file = "pulumi_docker-4.6.1.tar.gz", hash = "sha256:35746f48dda89f5f6916029546482e8172b02dfbd1b86afcdd167c20e60f2f7c"},
 ]
 
 [package.dependencies]
@@ -430,13 +442,13 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-random"
-version = "4.16.8"
+version = "4.18.0"
 description = "A Pulumi package to safely use randomness in Pulumi programs."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "pulumi_random-4.16.8-py3-none-any.whl", hash = "sha256:ba1b1fd6532988b1977e4bc8243d5b6f3c048c40f5919fcc70061088f37ebb51"},
-    {file = "pulumi_random-4.16.8.tar.gz", hash = "sha256:0112e10e3c8096b6e6fa05974bcefcf2f7731081035191860a2e7d6c0e4ef09f"},
+    {file = "pulumi_random-4.18.0-py3-none-any.whl", hash = "sha256:420508895f20a4f7c54ea04c91ebb083a7726a2a6d9b697a485d869ab8c46044"},
+    {file = "pulumi_random-4.18.0.tar.gz", hash = "sha256:84862ecfff13ca97de87dc2b7dc14f79650e033a461c61a4ccdc76af4ed891f5"},
 ]
 
 [package.dependencies]
@@ -616,4 +628,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "10a8c02bfb0c7e6c928d157d9c527797e534bb4552811c14b7337306fe50b33e"
+content-hash = "f5a4ff1767949c711f4368b47899b0659c323c91835b0a041f3be6d3b65ecc0a"
